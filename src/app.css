@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    cursor: none;
+    font-family: 'Clash Display', sans-serif;
+    user-select: none;
+    overflow-x: hidden;
+}
+html{
+    /* scroll-behavior: smooth; */
+    /* remove scrollbar */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+/* remove scrollbar */
+::-webkit-scrollbar {
+    display: none;
+}
